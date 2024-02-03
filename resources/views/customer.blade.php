@@ -38,7 +38,7 @@
 
 
             <input type="submit" class="btn btn-success" value="Add Student"/>
-            <input type="cancel" class="btn btn-warring" value="Cansel Teacher"/>
+            <input type="cancel" class="btn btn-warning" value="Cansel Teacher"/>
         </form>
 
     </div>
