@@ -27,3 +27,7 @@ Route::controller(\App\Http\Controllers\StudentController::class)->group(functio
    Route::get('/AddStudent','AddStudent');
    Route::post('/saveStudent','save')->name('student.save');
 });
+
+Route::get('/TeacherSavePage', function () {
+    return view('customer');
+});

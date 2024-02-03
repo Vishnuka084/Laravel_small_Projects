@@ -14,6 +14,8 @@
 
         <a href="/StudentSavePage">Add Student</a>
 
+        <a href="/TeacherSavePage">Add Teacher</a>
+
     </div>
 
 
