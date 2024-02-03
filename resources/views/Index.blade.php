@@ -12,9 +12,17 @@
 <body >
 <div class="row">
     <div class="col-6 studentAdd">
+
+        <div>
+            @if (Session::has('message'))
+                <p>{{Session::get('message')}}</p>
+            @endif
+        </div>
+
         <h1>Student Add</h1>
 
-        <form action="">
+        <form method="post" action="{{route('student.save')}}">
+            @csrf
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Student Name </label>
                 <input type="email" class="form-control" id="studentName" placeholder="Kamala siriwardana">
