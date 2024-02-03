@@ -22,3 +22,7 @@ Route::get('/StudentSavePage', function () {
     return view('index');
 });
 
+
+Route::controller(\App\Http\Controllers\StudentController::class)->group(function (){
+   Route::get('/AddStudent','AddStudent');
+});
