@@ -27,10 +27,10 @@
                 <label for="dob" class="form-label">Student Birthday</label>
                 <input type="date" class="form-control" id="studentDOB" placeholder="date of birth">
             </div>
-            <div class="mb-3">
+            <!--<div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+            </div>-->
 
             <input type="submit" class="btn btn-success" value="Add Student"/>
         </form>
