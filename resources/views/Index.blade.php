@@ -13,14 +13,28 @@
 <div class="row">
     <div class="col-6 studentAdd">
         <h1>Student Add</h1>
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
+
+        <form action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Student Name </label>
+                <input type="email" class="form-control" id="studentName" placeholder="Kamala siriwardana">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+                <label for="dob" class="form-label">Student Birthday</label>
+                <input type="date" class="form-control" id="studentDOB" placeholder="date of birth">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <input type="submit" class="btn btn-success" value="Add Student"/>
+        </form>
+
     </div>
     <div class="col-6">
 
