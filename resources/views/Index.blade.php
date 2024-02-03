@@ -25,11 +25,11 @@
             @csrf
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Student Name </label>
-                <input type="email" class="form-control" id="studentName" placeholder="Kamala siriwardana">
+                <input type="text" class="form-control" id="studentName" placeholder="Kamala siriwardana">
             </div>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <input type="email" class="form-control" name="email" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
             <div class="mb-3">
                 <label for="dob" class="form-label">Student Birthday</label>
